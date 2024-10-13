@@ -11,12 +11,14 @@ import java.sql.Connection;
 import javax.swing.JOptionPane;
 import Entregable.Cliente;
 
+   //victor hugo
+
 public class ClienteForm extends javax.swing.JPanel {
         private Connection connection;
 
     /**
      * Creates new form NewJPanel
-     */
+     */       
     public ClienteForm() {
         initComponents();
         // Inicializar la conexión

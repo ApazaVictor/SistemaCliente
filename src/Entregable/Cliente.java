@@ -8,6 +8,7 @@ package Entregable;
  *
  * @author i5
  */
+//victor hugo
 public class Cliente {
     private String dni;
     private String nombre;
