@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 public class OracleDBConnection {
     private static final String URL = "jdbc:oracle:thin:@localhost:1521:xe"; // Cambia según tu configuración
-    private static final String USER = "PRUEBA"; 
+    private static final String USER = "TRABAJO_FINAL"; 
     private static final String PASSWORD = "1234560"; 
 
     // Método para obtener la conexión
