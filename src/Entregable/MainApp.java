@@ -58,7 +58,7 @@ private static void crearClientesPrueba(Connection connection) {
 
     private static void actualizarCliente(Connection connection) throws SQLException {
         // Actualizar un cliente de prueba
-        ClienteCRUD.modificarCliente(connection, "12345679", "Juanito Pérez", "999999999", "Avenida Nueva 456");
+        ClienteCRUD.modificarCliente(connection, "12345678", "Frank Pérez", "235386897", "Avenida Nueva 456");
     }
 
     private static void eliminarCliente(Connection connection) throws SQLException {

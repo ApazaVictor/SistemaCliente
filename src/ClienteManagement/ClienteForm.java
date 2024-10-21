@@ -179,6 +179,7 @@ private void cargarDatosTabla() {
         });
         jPanel1.add(jButtonEliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 490, -1, -1));
 
+        JPanelCRUD.setBackground(new java.awt.Color(204, 255, 255));
         JPanelCRUD.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {},
