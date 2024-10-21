@@ -21,7 +21,7 @@ public class ClienteForm extends javax.swing.JPanel {
      */
     public ClienteForm() {
         initComponents();
-        JPanelCRUD.setModel(new DefaultTableModel(
+    JPanelCRUD.setModel(new DefaultTableModel(
     new Object[][] {},
     new String[]{"DNI", "Nombre", "Teléfonos", "Dirección"}
 ));
@@ -91,11 +91,12 @@ private void cargarDatosTabla() {
         jScrollPane1 = new javax.swing.JScrollPane();
         JPanelCRUD = new javax.swing.JTable();
 
+        jPanel1.setBackground(new java.awt.Color(0, 153, 153));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Segoe UI Black", 0, 18)); // NOI18N
-        jLabel1.setText("FORMULARIO");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 50, 130, -1));
+        jLabel1.setText("FORMULARIO CLIENTE");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 30, 210, -1));
 
         jLabel2.setText("DNI");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, -1, -1));
@@ -196,7 +197,7 @@ private void cargarDatosTabla() {
         });
         jScrollPane1.setViewportView(JPanelCRUD);
 
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 70, -1, 360));
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 130, -1, 340));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -206,7 +207,7 @@ private void cargarDatosTabla() {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 553, Short.MAX_VALUE)
         );
     }// </editor-fold>//GEN-END:initComponents
 

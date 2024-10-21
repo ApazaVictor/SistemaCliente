@@ -12,12 +12,12 @@
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/SistemaClientes/src/ClienteManagement/ClienteForm.java</file>
-            <file>file:/C:/SistemaClientes/src/ClienteManagement/Principal.java</file>
-            <file>file:/C:/SistemaClientes/src/Entregable/Cliente.java</file>
-            <file>file:/C:/SistemaClientes/src/Entregable/MainApp.java</file>
-            <file>file:/C:/SistemaClientes/src/Entregable/ClienteCRUD.java</file>
-            <file>file:/C:/SistemaClientes/src/Database/OracleDBConnection.java</file>
+            <file>file:/C:/HUGO/java_swing/SistemaCliente/src/ClienteManagement/ClienteForm.java</file>
+            <file>file:/C:/HUGO/java_swing/SistemaCliente/src/Entregable/ClienteCRUD.java</file>
+            <file>file:/C:/HUGO/java_swing/SistemaCliente/src/Entregable/MainApp.java</file>
+            <file>file:/C:/HUGO/java_swing/SistemaCliente/src/Database/OracleDBConnection.java</file>
+            <file>file:/C:/HUGO/java_swing/SistemaCliente/src/Entregable/Cliente.java</file>
+            <file>file:/C:/HUGO/java_swing/SistemaCliente/src/ClienteManagement/Principal.java</file>
         </group>
     </open-files>
 </project-private>
